@@ -1,11 +1,10 @@
 module.exports = {
-  base: '/ts-axios/',
-  dest: 'docs',
+  dest: 'dist',
   title: 'TypeScript 从零实现 axios',
   description: '学习使用 TypeScript 从零实现 axios 库',
   themeConfig: {
     editLinks: false,
-    docsDir: 'markdown',
+    docsDir: 'docs',
     nav: [],
     sidebar: [
       {
